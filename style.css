@@ -147,17 +147,3 @@ footer {
     font-size: 14px;
 }
 
-@media (max-width: 600px) {
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .contact-content {
-        flex-direction: column;
-    }
-
-    section {
-        padding: 40px 16px;
-    }
-}
