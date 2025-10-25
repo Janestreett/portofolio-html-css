@@ -1,117 +1,117 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Akmal Fahreza</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1 class="logo">Portofolio</h1>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#about">Tentang</a>
-                <a href="#projects">Project</a>
-                <a href="#contact">Kontak</a>
-            </nav>
-        </div>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 42px;
+    color: #000;
+    background: #fff;
+}
 
-    <section id="home" class="home">
-        <div class="container">
-            <div class="home-content">
-                <h2>Halo, saya <span>Akmal Fahreza</span></h2>
-                <p>Saya seorang pelajar kelas XI RPL yang sedang belajar pemrograman menggunakan HTML dan CSS. Saya juga memiliki minat besar terhadap dunia finance, investment, dan trading.</p>
-                <a href="#projects" class="btn">Lihat Project</a>
-            </div>
-        </div>
-    </section>
+header {
+    background: #000;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>Tentang Saya</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Nama saya <strong>Akmal Fahreza</strong>, seorang pelajar kelas XI Rekayasa Perangkat Lunak (RPL). Saya sedang mendalami dasar-dasar pemrograman web menggunakan HTML dan CSS.</p>
-                    <p>Saya juga memiliki ketertarikan dalam dunia <strong>finance</strong>, <strong>investment</strong>, dan <strong>trading</strong>. Saya percaya bahwa pemahaman tentang ekonomi global dan investasi yang bijak dapat membantu banyak orang mencapai kebebasan finansial.</p>
-                </div>
-                <div class="skills">
-                    <h3>Skills:</h3>
-                    <div class="skill-list">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Finance</span>
-                        <span>Investment</span>
-                        <span>Trading</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+header h1 {
+    margin-bottom: 5px;
+}
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Project Saya</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Akmal Capital Insight</h3>
-                    <p>
-                        <strong>Akmal Capital Insight (coming soon)</strong>
-                         adalah proyek pribadi yang saya kembangkan sebagai wadah edukasi dan informasi seputar investasi dan ekonomi global.
-                        Tujuan utama dari proyek ini adalah untuk membantu masyarakat memahami cara memilih aset yang berkualitas untuk dipegang dalam jangka pendek maupun jangka panjang.
-                    </p>
-                    <p>
-                        Di <strong>Akmal Capital Insight</strong>, saya ingin membagikan pengetahuan seputar:
-                    </p>
-                    <ul>
-                        <li>📊 Cara melakukan analisis fundamental terhadap perusahaan dan aset.</li>
-                        <li>🌍 Dasar-dasar analisis makro ekonomi global.</li>
-                        <li>💡 Mindset dan strategi investasi jangka panjang yang rasional dan terukur.</li>
-                    </ul>
-                    <p>
-                        Meskipun proyek ini masih dalam rancangan awal pengembangan, saya berharap ke depannya <strong>Akmal Capital Insight</strong> bisa menjadi platform yang membantu banyak orang mengambil keputusan investasi dengan lebih bijak.
-                    </p>
-                  
-            </div>
-        </div>
-    </section>
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Hubungi Saya</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <p>Email: 
-                        <a href="mailto:akmalfahreza908@gmail.com">
-                            akmalfahreza908@gmail.com
-                        </a>
-                    </p>
-                    <p>Telepon: 0838-2913-2714</p>
-                    <p>Lokasi: Pamulang Barat,Kecamatan Tangerang Selatan </p>
-                    <p>
-                        <strong>Media Sosial:</strong><br>
-                        <a href="https://wa.me/6283829132714" target="_blank">WhatsApp</a> |
-                        <a href="https://www.instagram.com/akmall2_1/" target="_blank">Instagram</a> |
-                        <a href="https://www.linkedin.com/in/akmal-fahreza-90a896381?trk=contact-info" target="_blank">LinkedIn</a> |
-                        <a href="https://github.com/Janestreett" target="_blank">GitHub</a>
-                    </p>
-                </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Nama" required>
-                    <input type="email" placeholder="Email" required>
-                    <textarea placeholder="Pesan" rows="5" required></textarea>
-                    <button type="submit" class="button">Kirim Pesan</button>
-                </form>
-            </div>
-        </div>
-    </section>
+nav a:hover {
+    text-decoration: underline;
+}
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Akmal Fahreza | Portofolio</p>
-        </div>
-    </footer>
-</body>
-</html>
+section {
+    padding: 48px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    margin-bottom: 24px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+}
+
+#home {
+    text-align: center;
+    padding: 96px;
+}
+
+#home h2 {
+    font-size: 32px;
+    border: none;
+}
+
+.skills {
+    margin: 16px
+}
+
+.skills span {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 24px;
+    margin: 4px;
+}
+
+.project {
+    border: 1px solid #000;
+    padding: 24px;
+    margin: 16px;
+}
+
+.project h3 {
+    margin-bottom: 8px;
+}
+
+#contact {
+    background: #f5f5f5;
+}
+
+form {
+    margin-top: 16px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 8px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    padding: 13px 32px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 32px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+    
+    section {
+        padding: 40px;
+    }
+}
